@@ -121,7 +121,7 @@ resource "aws_iam_role" "redshift_role" {
 
   assume_role_policy = <<EOF
 {
-  "Version": "2012-10-17",
+  "Version": "2020-10-28",
   "Statement": [
     {
       "Action": "sts:AssumeRole",
