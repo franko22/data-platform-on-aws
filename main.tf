@@ -104,7 +104,7 @@ resource "aws_iam_role_policy" "s3_full_access_policy" {
 
   policy = <<EOF
 {
-    "Version": "2020-10-28",
+    "Version": "2012-10-17",
     "Statement": [
         {
             "Effect": "Allow",
@@ -121,7 +121,7 @@ resource "aws_iam_role" "redshift_role" {
 
   assume_role_policy = <<EOF
 {
-  "Version": "2020-10-28",
+  "Version": "2012-10-17",
   "Statement": [
     {
       "Action": "sts:AssumeRole",
