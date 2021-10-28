@@ -6,4 +6,4 @@ see link for documentation https://docs.aws.amazon.com/streams/latest/dev/before
 
 
 # integrating firehose for ETL processing streaming using terraform
-see terraform scripts in repo
+See terraform scripts in repo, with Amazon kinesis, SQS and Firehose.
