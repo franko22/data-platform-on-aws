@@ -104,7 +104,7 @@ resource "aws_iam_role_policy" "s3_full_access_policy" {
 
   policy = <<EOF
 {
-    "Version": "2012-10-17",
+    "Version": "2020-10-28",
     "Statement": [
         {
             "Effect": "Allow",
